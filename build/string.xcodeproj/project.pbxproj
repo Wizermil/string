@@ -98,8 +98,6 @@
 		222A654623EB16AD0027C3B2 /* String.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 222A654323EB16AD0027C3B2 /* String.cpp */; };
 		222D923723FED41F0028A5BD /* find_first_of.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 222D923623FED3F20028A5BD /* find_first_of.cpp */; };
 		222D923823FED4200028A5BD /* find_first_of.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 222D923623FED3F20028A5BD /* find_first_of.cpp */; };
-		2252FD0E23F45B6A00496EFC /* ios_string.m in Sources */ = {isa = PBXBuildFile; fileRef = 2252FD0D23F45B6A00496EFC /* ios_string.m */; };
-		2252FD0F23F45B6A00496EFC /* ios_string.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2252FD0C23F45B6A00496EFC /* ios_string.h */; };
 		2252FD1323F45BA700496EFC /* string.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2205126323EDB7E5007CA0C4 /* string.cpp */; };
 		2252FD1623F45BBD00496EFC /* libios_string.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2252FD0A23F45B6A00496EFC /* libios_string.a */; };
 		22B585EA2403CFAA002B7A9E /* begin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B585E92403CFAA002B7A9E /* begin.cpp */; };
@@ -202,7 +200,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				2252FD0F23F45B6A00496EFC /* ios_string.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,8 +263,6 @@
 		2252835123FBE30B00294F95 /* string_view.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = string_view.hpp; sourceTree = "<group>"; };
 		2252835223FBE3C200294F95 /* helper.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = helper.hpp; sourceTree = "<group>"; };
 		2252FD0A23F45B6A00496EFC /* libios_string.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libios_string.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		2252FD0C23F45B6A00496EFC /* ios_string.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ios_string.h; sourceTree = "<group>"; };
-		2252FD0D23F45B6A00496EFC /* ios_string.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_string.m; sourceTree = "<group>"; };
 		2271CD9F23FAB458005A2FBB /* function.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = function.hpp; sourceTree = "<group>"; };
 		2282ABCE23F6F5E200D48773 /* operation.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = operation.hpp; sourceTree = "<group>"; };
 		229E9EAC23215D64000AF339 /* constructor.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = constructor.hpp; sourceTree = "<group>"; };
@@ -547,15 +542,6 @@
 			path = ../lib/elixir;
 			sourceTree = "<group>";
 		};
-		2252FD0B23F45B6A00496EFC /* ios_string */ = {
-			isa = PBXGroup;
-			children = (
-				2252FD0C23F45B6A00496EFC /* ios_string.h */,
-				2252FD0D23F45B6A00496EFC /* ios_string.m */,
-			);
-			path = ios_string;
-			sourceTree = "<group>";
-		};
 		227E2ED32329544000DE2EC3 /* string */ = {
 			isa = PBXGroup;
 			children = (
@@ -579,7 +565,6 @@
 				2221BE5A22D8B5F300A3098E /* benchmark */,
 				2221BE9F22D8B7DF00A3098E /* test */,
 				2221BE0722D8AF7400A3098E /* lib */,
-				2252FD0B23F45B6A00496EFC /* ios_string */,
 				2221BE5F22D8B63A00A3098E /* Frameworks */,
 				2221BDFC22D8AF4000A3098E /* Products */,
 			);
@@ -1024,7 +1009,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2252FD1323F45BA700496EFC /* string.cpp in Sources */,
-				2252FD0E23F45B6A00496EFC /* ios_string.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
