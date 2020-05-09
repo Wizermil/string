@@ -37,18 +37,18 @@ TEST_CASE("string operation > push_back", "[string]") {
             a.push_back('b');
             REQUIRE(a == "tototototototototototoab");
             REQUIRE(a.size() == 24);
-            REQUIRE(a.capacity() == 30);
+            REQUIRE(a.capacity() == 46);
         }
         {
             wiz::string a{"longlonglonglonglonglonglonglong"};
             a.push_back('a');
             REQUIRE(a == "longlonglonglonglonglonglonglonga");
             REQUIRE(a.size() == 33);
-            REQUIRE(a.capacity() == 42);
+            REQUIRE(a.capacity() == 64);
             a.push_back('b');
             REQUIRE(a == "longlonglonglonglonglonglonglongab");
             REQUIRE(a.size() == 34);
-            REQUIRE(a.capacity() == 42);
+            REQUIRE(a.capacity() == 64);
         }
     }
 

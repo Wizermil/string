@@ -55,8 +55,8 @@ namespace wiz {
 //    BENCHMARK_TEMPLATE(constructor_copyassign_long_test, elixir::String);
 //
     BENCHMARK_TEMPLATE(constructor_copyassign_long_worst_test, wiz::string);
-//    BENCHMARK_TEMPLATE(constructor_copyassign_long_worst_test, std::string);
-//    BENCHMARK_TEMPLATE(constructor_copyassign_long_worst_test, elixir::String);
+    BENCHMARK_TEMPLATE(constructor_copyassign_long_worst_test, std::string);
+    BENCHMARK_TEMPLATE(constructor_copyassign_long_worst_test, elixir::String);
 //
 //    BENCHMARK_TEMPLATE(constructor_copyassign_short_test, wiz::string);
 //    BENCHMARK_TEMPLATE(constructor_copyassign_short_test, std::string);

@@ -716,7 +716,7 @@ namespace wiz {
         size_type ms = max_size();
         assert(delta_cap <= (ms - old_cap));
         pointer old_p = data();
-        size_type cap = old_cap < ((ms / 2) - details::ALIGN) ? _recommend(std::max(old_cap + delta_cap, (4 * old_cap) / 3)) : ms - 1;
+        size_type cap = old_cap < ((ms >> 1) - details::ALIGN) ? _recommend(std::max(old_cap + delta_cap, old_cap << 1)) : ms - 1;
         pointer p = details::_allocate(cap + 1);
         if (n_copy != 0) {
             details::_copy(p, old_p, n_copy);
@@ -738,7 +738,7 @@ namespace wiz {
         size_type ms = max_size();
         assert(delta_cap <= (ms - old_cap - 1));
         pointer old_p = data();
-        size_type cap = old_cap < ((ms / 2) - details::ALIGN) ? _recommend(std::max(old_cap + delta_cap, (4 * old_cap) / 3)) : ms - 1;
+        size_type cap = old_cap < ((ms >> 1) - details::ALIGN) ? _recommend(std::max(old_cap + delta_cap, old_cap << 1)) : ms - 1;
         pointer p = details::_allocate(cap + 1);
 
         if (n_copy != 0) {

@@ -35,7 +35,7 @@ TEST_CASE("string operation > append", "[string]") {
             a.append(24, 'a');
             REQUIRE(a == "aaaaaaaaaaaaaaaaaaaaaaaa");
             REQUIRE(a.size() == 24);
-            REQUIRE(a.capacity() == 30);
+            REQUIRE(a.capacity() == 46);
         }
     }
 
@@ -54,7 +54,7 @@ TEST_CASE("string operation > append", "[string]") {
             a.append(b);
             REQUIRE(a == "longlonglonglonglonglonglonglong");
             REQUIRE(a.size() == 32);
-            REQUIRE(a.capacity() == 32);
+            REQUIRE(a.capacity() == 46);
         }
         {
             wiz::string a{"tata", 4};
@@ -84,7 +84,7 @@ TEST_CASE("string operation > append", "[string]") {
             a.append(b);
             REQUIRE(a == "tatalonglonglonglonglonglonglonglong");
             REQUIRE(a.size() == 36);
-            REQUIRE(a.capacity() == 36);
+            REQUIRE(a.capacity() == 46);
         }
         {
             wiz::string a;
@@ -92,7 +92,7 @@ TEST_CASE("string operation > append", "[string]") {
             a.append(b);
             REQUIRE(a == "longlonglonglonglonglonglonglong");
             REQUIRE(a.size() == 32);
-            REQUIRE(a.capacity() == 32);
+            REQUIRE(a.capacity() == 46);
         }
         {
             wiz::string a{"longlonglonglonglonglonglonglong", 32};
@@ -142,7 +142,7 @@ TEST_CASE("string operation > append", "[string]") {
             a.append(b, 1, 3);
             REQUIRE(a == "totototototototototototari");
             REQUIRE(a.size() == 26);
-            REQUIRE(a.capacity() == 30);
+            REQUIRE(a.capacity() == 46);
         }
         {
             wiz::string a{"longlonglonglonglonglonglonglong", 32};
@@ -150,7 +150,7 @@ TEST_CASE("string operation > append", "[string]") {
             a.append(b, 10, 5);
             REQUIRE(a == "longlonglonglonglonglonglonglongklmno");
             REQUIRE(a.size() == 37);
-            REQUIRE(a.capacity() == 42);
+            REQUIRE(a.capacity() == 64);
         }
     }
 
@@ -167,7 +167,7 @@ TEST_CASE("string operation > append", "[string]") {
             a.append("longlonglonglonglonglonglonglong", 24);
             REQUIRE(a == "longlonglonglonglonglong");
             REQUIRE(a.size() == 24);
-            REQUIRE(a.capacity() == 30);
+            REQUIRE(a.capacity() == 46);
         }
         {
             wiz::string a{"tata", 4};
@@ -181,7 +181,7 @@ TEST_CASE("string operation > append", "[string]") {
             a.append("longlonglonglonglonglonglonglong", 24);
             REQUIRE(a == "tatalonglonglonglonglonglong");
             REQUIRE(a.size() == 28);
-            REQUIRE(a.capacity() == 30);
+            REQUIRE(a.capacity() == 46);
         }
         {
             wiz::string a;
@@ -195,7 +195,7 @@ TEST_CASE("string operation > append", "[string]") {
             a.append("totototototototototototototototo", 2);
             REQUIRE(a == "longlonglonglonglonglonglonglongto");
             REQUIRE(a.size() == 34);
-            REQUIRE(a.capacity() == 42);
+            REQUIRE(a.capacity() == 64);
         }
         {
             wiz::string a{"longlonglonglonglonglonglonglong", 32};
@@ -219,7 +219,7 @@ TEST_CASE("string operation > append", "[string]") {
             a.append("longlonglonglonglonglonglonglong");
             REQUIRE(a == "longlonglonglonglonglonglonglong");
             REQUIRE(a.size() == 32);
-            REQUIRE(a.capacity() == 32);
+            REQUIRE(a.capacity() == 46);
         }
         {
             wiz::string a{"tata", 4};
@@ -233,14 +233,14 @@ TEST_CASE("string operation > append", "[string]") {
             a.append("longlonglonglonglonglonglonglong");
             REQUIRE(a == "tatalonglonglonglonglonglonglonglong");
             REQUIRE(a.size() == 36);
-            REQUIRE(a.capacity() == 36);
+            REQUIRE(a.capacity() == 46);
         }
         {
             wiz::string a;
             a.append("longlonglonglonglonglonglonglong");
             REQUIRE(a == "longlonglonglonglonglonglonglong");
             REQUIRE(a.size() == 32);
-            REQUIRE(a.capacity() == 32);
+            REQUIRE(a.capacity() == 46);
         }
         {
             wiz::string a{"longlonglonglonglonglonglonglong", 32};
@@ -286,7 +286,7 @@ TEST_CASE("string operation > append", "[string]") {
             a.append(&data[0], &data[0] + 24);
             REQUIRE(a == "tatatatatatatatatatatata");
             REQUIRE(a.size() == 24);
-            REQUIRE(a.capacity() == 30);
+            REQUIRE(a.capacity() == 46);
         }
         {
             char const data[] {'t', 'a', 't', 'a',
@@ -331,14 +331,14 @@ TEST_CASE("string operation > append", "[string]") {
             a.append({'a', 'b', 'c', 'd'});
             REQUIRE(a == "totototototototototoabcd");
             REQUIRE(a.size() == 24);
-            REQUIRE(a.capacity() == 30);
+            REQUIRE(a.capacity() == 46);
         }
         {
             wiz::string a{"longlonglonglonglonglonglonglong", 32};
             a.append({'a', 'b', 'c', 'd'});
             REQUIRE(a == "longlonglonglonglonglonglonglongabcd");
             REQUIRE(a.size() == 36);
-            REQUIRE(a.capacity() == 42);
+            REQUIRE(a.capacity() == 64);
         }
     }
 
@@ -357,7 +357,7 @@ TEST_CASE("string operation > append", "[string]") {
             a.append(b);
             REQUIRE(a == "longlonglonglonglonglonglonglong");
             REQUIRE(a.size() == 32);
-            REQUIRE(a.capacity() == 32);
+            REQUIRE(a.capacity() == 46);
         }
         {
             wiz::string a{"tata", 4};
@@ -373,7 +373,7 @@ TEST_CASE("string operation > append", "[string]") {
             a.append(b);
             REQUIRE(a == "tatalonglonglonglonglonglonglonglong");
             REQUIRE(a.size() == 36);
-            REQUIRE(a.capacity() == 36);
+            REQUIRE(a.capacity() == 46);
         }
         {
             wiz::string a;
@@ -381,7 +381,7 @@ TEST_CASE("string operation > append", "[string]") {
             a.append(b);
             REQUIRE(a == "longlonglonglonglonglonglonglong");
             REQUIRE(a.size() == 32);
-            REQUIRE(a.capacity() == 32);
+            REQUIRE(a.capacity() == 46);
         }
         {
             wiz::string a{"longlonglonglonglonglonglonglong", 32};
@@ -424,7 +424,7 @@ TEST_CASE("string operation > append", "[string]") {
             a.append(b, 1, 3);
             REQUIRE(a == "totototototototototototari");
             REQUIRE(a.size() == 26);
-            REQUIRE(a.capacity() == 30);
+            REQUIRE(a.capacity() == 46);
         }
         {
             wiz::string a{"longlonglonglonglonglonglonglong", 32};
@@ -432,7 +432,7 @@ TEST_CASE("string operation > append", "[string]") {
             a.append(b, 10, 5);
             REQUIRE(a == "longlonglonglonglonglonglonglongklmno");
             REQUIRE(a.size() == 37);
-            REQUIRE(a.capacity() == 42);
+            REQUIRE(a.capacity() == 64);
         }
     }
 

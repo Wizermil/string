@@ -510,7 +510,14 @@
 		2221BE9F22D8B7DF00A3098E /* test */ = {
 			isa = PBXGroup;
 			children = (
-				227E2ED32329544000DE2EC3 /* string */,
+				22B585EF2403D00F002B7A9E /* access */,
+				221BFED523FFF5870080277A /* capacity */,
+				22194D7823015B9F000CAA49 /* construct.cpp */,
+				22B585E82403CF91002B7A9E /* iterator */,
+				2221BEA022D8B7EC00A3098E /* main.cpp */,
+				221BFEBA23FFF2D20080277A /* operation */,
+				221BFEE824002B730080277A /* operator */,
+				221BFED123FFF4CD0080277A /* search */,
 			);
 			name = test;
 			path = ../test;
@@ -540,21 +547,6 @@
 			);
 			name = elixir;
 			path = ../lib/elixir;
-			sourceTree = "<group>";
-		};
-		227E2ED32329544000DE2EC3 /* string */ = {
-			isa = PBXGroup;
-			children = (
-				22B585EF2403D00F002B7A9E /* access */,
-				221BFED523FFF5870080277A /* capacity */,
-				22194D7823015B9F000CAA49 /* construct.cpp */,
-				22B585E82403CF91002B7A9E /* iterator */,
-				2221BEA022D8B7EC00A3098E /* main.cpp */,
-				221BFEBA23FFF2D20080277A /* operation */,
-				221BFEE824002B730080277A /* operator */,
-				221BFED123FFF4CD0080277A /* search */,
-			);
-			path = string;
 			sourceTree = "<group>";
 		};
 		22A0675C22D8AD8500420C6D = {

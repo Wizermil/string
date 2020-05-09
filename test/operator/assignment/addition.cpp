@@ -22,7 +22,7 @@ TEST_CASE("string operator > assignment > addition", "[string]") {
             a += b;
             REQUIRE(a == "longlonglonglonglonglonglonglong");
             REQUIRE(a.size() == 32);
-            REQUIRE(a.capacity() == 32);
+            REQUIRE(a.capacity() == 46);
         }
         {
             wiz::string a{"tata", 4};
@@ -52,7 +52,7 @@ TEST_CASE("string operator > assignment > addition", "[string]") {
             a += b;
             REQUIRE(a == "tatalonglonglonglonglonglonglonglong");
             REQUIRE(a.size() == 36);
-            REQUIRE(a.capacity() == 36);
+            REQUIRE(a.capacity() == 46);
         }
         {
             wiz::string a;
@@ -60,7 +60,7 @@ TEST_CASE("string operator > assignment > addition", "[string]") {
             a += b;
             REQUIRE(a == "longlonglonglonglonglonglonglong");
             REQUIRE(a.size() == 32);
-            REQUIRE(a.capacity() == 32);
+            REQUIRE(a.capacity() == 46);
         }
         {
             wiz::string a{"longlonglonglonglonglonglonglong", 32};
@@ -102,18 +102,18 @@ TEST_CASE("string operator > assignment > addition", "[string]") {
             a += 'b';
             REQUIRE(a == "tototototototototototoab");
             REQUIRE(a.size() == 24);
-            REQUIRE(a.capacity() == 30);
+            REQUIRE(a.capacity() == 46);
         }
         {
             wiz::string a{"longlonglonglonglonglonglonglong"};
             a += 'a';
             REQUIRE(a == "longlonglonglonglonglonglonglonga");
             REQUIRE(a.size() == 33);
-            REQUIRE(a.capacity() == 42);
+            REQUIRE(a.capacity() == 64);
             a += 'b';
             REQUIRE(a == "longlonglonglonglonglonglonglongab");
             REQUIRE(a.size() == 34);
-            REQUIRE(a.capacity() == 42);
+            REQUIRE(a.capacity() == 64);
         }
     }
 
@@ -130,7 +130,7 @@ TEST_CASE("string operator > assignment > addition", "[string]") {
             a += "longlonglonglonglonglonglonglong";
             REQUIRE(a == "longlonglonglonglonglonglonglong");
             REQUIRE(a.size() == 32);
-            REQUIRE(a.capacity() == 32);
+            REQUIRE(a.capacity() == 46);
         }
         {
             wiz::string a{"tata", 4};
@@ -144,14 +144,14 @@ TEST_CASE("string operator > assignment > addition", "[string]") {
             a += "longlonglonglonglonglonglonglong";
             REQUIRE(a == "tatalonglonglonglonglonglonglonglong");
             REQUIRE(a.size() == 36);
-            REQUIRE(a.capacity() == 36);
+            REQUIRE(a.capacity() == 46);
         }
         {
             wiz::string a;
             a += "longlonglonglonglonglonglonglong";
             REQUIRE(a == "longlonglonglonglonglonglonglong");
             REQUIRE(a.size() == 32);
-            REQUIRE(a.capacity() == 32);
+            REQUIRE(a.capacity() == 46);
         }
         {
             wiz::string a{"longlonglonglonglonglonglonglong", 32};
@@ -182,14 +182,14 @@ TEST_CASE("string operator > assignment > addition", "[string]") {
             a += {'a', 'b', 'c', 'd'};
             REQUIRE(a == "totototototototototoabcd");
             REQUIRE(a.size() == 24);
-            REQUIRE(a.capacity() == 30);
+            REQUIRE(a.capacity() == 46);
         }
         {
             wiz::string a{"longlonglonglonglonglonglonglong", 32};
             a += {'a', 'b', 'c', 'd'};
             REQUIRE(a == "longlonglonglonglonglonglonglongabcd");
             REQUIRE(a.size() == 36);
-            REQUIRE(a.capacity() == 42);
+            REQUIRE(a.capacity() == 64);
         }
     }
 
@@ -208,7 +208,7 @@ TEST_CASE("string operator > assignment > addition", "[string]") {
             a += b;
             REQUIRE(a == "longlonglonglonglonglonglonglong");
             REQUIRE(a.size() == 32);
-            REQUIRE(a.capacity() == 32);
+            REQUIRE(a.capacity() == 46);
         }
         {
             wiz::string a{"tata", 4};
@@ -224,7 +224,7 @@ TEST_CASE("string operator > assignment > addition", "[string]") {
             a += b;
             REQUIRE(a == "tatalonglonglonglonglonglonglonglong");
             REQUIRE(a.size() == 36);
-            REQUIRE(a.capacity() == 36);
+            REQUIRE(a.capacity() == 46);
         }
         {
             wiz::string a;
@@ -232,7 +232,7 @@ TEST_CASE("string operator > assignment > addition", "[string]") {
             a += b;
             REQUIRE(a == "longlonglonglonglonglonglonglong");
             REQUIRE(a.size() == 32);
-            REQUIRE(a.capacity() == 32);
+            REQUIRE(a.capacity() == 46);
         }
         {
             wiz::string a{"longlonglonglonglonglonglonglong", 32};
