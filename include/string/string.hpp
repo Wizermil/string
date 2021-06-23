@@ -77,7 +77,7 @@ namespace wiz {
         static constexpr size_type const npos = ~static_cast<size_type>(0);
 
         string() noexcept;
-//        string(size_type count, value_type ch);
+        string(size_type count, value_type ch);
         string(string const& other, size_type pos);
         string(string const& other, size_type pos, size_type count);
         string(const_pointer s, size_type count) noexcept;
@@ -458,6 +458,7 @@ namespace wiz {
         }
 
         WIZ_HIDDEN void _init(const_pointer data, size_type count, size_type capacity);
+        WIZ_HIDDEN void _init(size_type count, value_type ch);
         WIZ_HIDDEN void _grow_by(size_type old_cap, size_type delta_cap, size_type old_sz, size_type n_copy, size_type n_del, size_type n_add = 0);
         WIZ_HIDDEN void _grow_by_and_replace(size_type old_cap, size_type delta_cap, size_type old_sz, size_type n_copy, size_type n_del, size_type n_add,
                                                     const_pointer p_new_stuff);

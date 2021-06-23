@@ -59,6 +59,44 @@ TEST_CASE("string constructor", "[string]") {
         }
     }
 
+    SECTION("string(size_type count, value_type ch)") {
+        {
+            wiz::string a{0, 'a'};
+            REQUIRE(a.empty());
+            REQUIRE(a.size() == 0);
+            REQUIRE(a.capacity() == 23);
+            REQUIRE(a == "");
+        }
+        {
+            wiz::string a{1, 'a'};
+            REQUIRE_FALSE(a.empty());
+            REQUIRE(a.size() == 1);
+            REQUIRE(a.capacity() == 23);
+            REQUIRE(a == "a");
+        }
+        {
+            wiz::string a{2, 'a'};
+            REQUIRE_FALSE(a.empty());
+            REQUIRE(a.size() == 2);
+            REQUIRE(a.capacity() == 23);
+            REQUIRE(a == "aa");
+        }
+        {
+            wiz::string a{23, 'a'};
+            REQUIRE_FALSE(a.empty());
+            REQUIRE(a.size() == 23);
+            REQUIRE(a.capacity() == 23);
+            REQUIRE(a == "aaaaaaaaaaaaaaaaaaaaaaa");
+        }
+        {
+            wiz::string a{24, 'a'};
+            REQUIRE_FALSE(a.empty());
+            REQUIRE(a.size() == 24);
+            REQUIRE(a.capacity() == 24);
+            REQUIRE(a == "aaaaaaaaaaaaaaaaaaaaaaaa");
+        }
+    }
+
     SECTION("string(string const& other, size_type pos, size_type count)") {
         {
             wiz::string a;

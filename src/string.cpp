@@ -27,6 +27,10 @@ namespace wiz {
         _init(other.data() + pos, n, n);
     }
 
+    string::string(size_type count, value_type ch) {
+        _init(count, ch);
+    }
+
     string::string(string::const_pointer s, string::size_type count) noexcept {
         assert(s != nullptr);
         _init(s, count, count);
@@ -707,6 +711,21 @@ namespace wiz {
             _set_long_capacity(capacity);
         } else {
             details::_copy(_rep.s.buffer, data, count);
+            details::_assign(_rep.s.buffer[count], value_type{});
+            _set_short_size(count);
+        }
+    }
+
+    WIZ_HIDDEN void string::_init(size_type count, value_type ch) {
+        if (count > short_string_type::capacity) {
+            size_type capacity = _recommend(count);
+            _rep.l.ptr = details::_allocate(capacity + 1);
+            details::_assign(_rep.l.ptr, count, ch);
+            details::_assign(_rep.l.ptr[count], value_type{});
+            _rep.l.size = count;
+            _set_long_capacity(capacity);
+        } else {
+            details::_assign(_rep.s.buffer, count, ch);
             details::_assign(_rep.s.buffer[count], value_type{});
             _set_short_size(count);
         }
