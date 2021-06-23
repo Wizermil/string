@@ -50,44 +50,6 @@
 		221BFEFA24002EA50080277A /* addition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 221BFEF824002EA50080277A /* addition.cpp */; };
 		221BFEFD24002F310080277A /* addition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 221BFEFC24002F310080277A /* addition.cpp */; };
 		221BFEFE24002F310080277A /* addition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 221BFEFC24002F310080277A /* addition.cpp */; };
-		2221BE1C22D8AFC100A3098E /* commandlineflags.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2221BE0922D8AFC100A3098E /* commandlineflags.cc */; };
-		2221BE1D22D8AFC100A3098E /* benchmark_api_internal.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2221BE0A22D8AFC100A3098E /* benchmark_api_internal.cc */; };
-		2221BE1E22D8AFC100A3098E /* sysinfo.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2221BE0B22D8AFC100A3098E /* sysinfo.cc */; };
-		2221BE1F22D8AFC100A3098E /* console_reporter.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2221BE0C22D8AFC100A3098E /* console_reporter.cc */; };
-		2221BE2022D8AFC100A3098E /* benchmark_name.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2221BE0D22D8AFC100A3098E /* benchmark_name.cc */; };
-		2221BE2122D8AFC100A3098E /* counter.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2221BE0E22D8AFC100A3098E /* counter.cc */; };
-		2221BE2222D8AFC100A3098E /* benchmark_runner.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2221BE0F22D8AFC100A3098E /* benchmark_runner.cc */; };
-		2221BE2322D8AFC100A3098E /* timers.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2221BE1022D8AFC100A3098E /* timers.cc */; };
-		2221BE2422D8AFC100A3098E /* sleep.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2221BE1122D8AFC100A3098E /* sleep.cc */; };
-		2221BE2522D8AFC100A3098E /* string_util.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2221BE1222D8AFC100A3098E /* string_util.cc */; };
-		2221BE2622D8AFC100A3098E /* csv_reporter.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2221BE1322D8AFC100A3098E /* csv_reporter.cc */; };
-		2221BE2722D8AFC100A3098E /* benchmark_main.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2221BE1422D8AFC100A3098E /* benchmark_main.cc */; };
-		2221BE2822D8AFC100A3098E /* complexity.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2221BE1522D8AFC100A3098E /* complexity.cc */; };
-		2221BE2922D8AFC100A3098E /* json_reporter.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2221BE1622D8AFC100A3098E /* json_reporter.cc */; };
-		2221BE2A22D8AFC100A3098E /* reporter.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2221BE1722D8AFC100A3098E /* reporter.cc */; };
-		2221BE2B22D8AFC100A3098E /* statistics.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2221BE1822D8AFC100A3098E /* statistics.cc */; };
-		2221BE2C22D8AFC100A3098E /* colorprint.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2221BE1922D8AFC100A3098E /* colorprint.cc */; };
-		2221BE2D22D8AFC100A3098E /* benchmark_register.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2221BE1A22D8AFC100A3098E /* benchmark_register.cc */; };
-		2221BE2E22D8AFC100A3098E /* benchmark.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2221BE1B22D8AFC100A3098E /* benchmark.cc */; };
-		2221BE3C22D8B46A00A3098E /* benchmark_api_internal.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2221BE0A22D8AFC100A3098E /* benchmark_api_internal.cc */; };
-		2221BE3D22D8B46A00A3098E /* benchmark_main.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2221BE1422D8AFC100A3098E /* benchmark_main.cc */; };
-		2221BE3E22D8B46A00A3098E /* benchmark_name.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2221BE0D22D8AFC100A3098E /* benchmark_name.cc */; };
-		2221BE3F22D8B46A00A3098E /* benchmark_register.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2221BE1A22D8AFC100A3098E /* benchmark_register.cc */; };
-		2221BE4022D8B46A00A3098E /* benchmark_runner.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2221BE0F22D8AFC100A3098E /* benchmark_runner.cc */; };
-		2221BE4122D8B46A00A3098E /* benchmark.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2221BE1B22D8AFC100A3098E /* benchmark.cc */; };
-		2221BE4222D8B46A00A3098E /* colorprint.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2221BE1922D8AFC100A3098E /* colorprint.cc */; };
-		2221BE4322D8B46A00A3098E /* commandlineflags.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2221BE0922D8AFC100A3098E /* commandlineflags.cc */; };
-		2221BE4422D8B46A00A3098E /* complexity.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2221BE1522D8AFC100A3098E /* complexity.cc */; };
-		2221BE4522D8B46A00A3098E /* console_reporter.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2221BE0C22D8AFC100A3098E /* console_reporter.cc */; };
-		2221BE4622D8B46A00A3098E /* counter.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2221BE0E22D8AFC100A3098E /* counter.cc */; };
-		2221BE4722D8B46A00A3098E /* csv_reporter.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2221BE1322D8AFC100A3098E /* csv_reporter.cc */; };
-		2221BE4822D8B46A00A3098E /* json_reporter.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2221BE1622D8AFC100A3098E /* json_reporter.cc */; };
-		2221BE4922D8B46A00A3098E /* reporter.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2221BE1722D8AFC100A3098E /* reporter.cc */; };
-		2221BE4A22D8B46A00A3098E /* sleep.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2221BE1122D8AFC100A3098E /* sleep.cc */; };
-		2221BE4B22D8B46A00A3098E /* statistics.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2221BE1822D8AFC100A3098E /* statistics.cc */; };
-		2221BE4C22D8B46A00A3098E /* string_util.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2221BE1222D8AFC100A3098E /* string_util.cc */; };
-		2221BE4D22D8B46A00A3098E /* sysinfo.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2221BE0B22D8AFC100A3098E /* sysinfo.cc */; };
-		2221BE4E22D8B46A00A3098E /* timers.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2221BE1022D8AFC100A3098E /* timers.cc */; };
 		2221BE5C22D8B60700A3098E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2221BE5B22D8B60700A3098E /* main.cpp */; };
 		2221BE6022D8B63A00A3098E /* libmacos_google_benchmark.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2221BDFB22D8AF4000A3098E /* libmacos_google_benchmark.a */; };
 		2221BE7E22D8B6EF00A3098E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2221BE5B22D8B60700A3098E /* main.cpp */; };
@@ -98,6 +60,46 @@
 		222A654623EB16AD0027C3B2 /* String.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 222A654323EB16AD0027C3B2 /* String.cpp */; };
 		222D923723FED41F0028A5BD /* find_first_of.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 222D923623FED3F20028A5BD /* find_first_of.cpp */; };
 		222D923823FED4200028A5BD /* find_first_of.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 222D923623FED3F20028A5BD /* find_first_of.cpp */; };
+		2235BA3E268363940016CCAA /* csv_reporter.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2235BA2A268363940016CCAA /* csv_reporter.cc */; };
+		2235BA3F268363940016CCAA /* csv_reporter.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2235BA2A268363940016CCAA /* csv_reporter.cc */; };
+		2235BA40268363940016CCAA /* string_util.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2235BA2B268363940016CCAA /* string_util.cc */; };
+		2235BA41268363940016CCAA /* string_util.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2235BA2B268363940016CCAA /* string_util.cc */; };
+		2235BA42268363940016CCAA /* statistics.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2235BA2C268363940016CCAA /* statistics.cc */; };
+		2235BA43268363940016CCAA /* statistics.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2235BA2C268363940016CCAA /* statistics.cc */; };
+		2235BA44268363940016CCAA /* colorprint.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2235BA2D268363940016CCAA /* colorprint.cc */; };
+		2235BA45268363940016CCAA /* colorprint.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2235BA2D268363940016CCAA /* colorprint.cc */; };
+		2235BA46268363940016CCAA /* benchmark_api_internal.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2235BA2E268363940016CCAA /* benchmark_api_internal.cc */; };
+		2235BA47268363940016CCAA /* benchmark_api_internal.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2235BA2E268363940016CCAA /* benchmark_api_internal.cc */; };
+		2235BA48268363940016CCAA /* counter.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2235BA2F268363940016CCAA /* counter.cc */; };
+		2235BA49268363940016CCAA /* counter.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2235BA2F268363940016CCAA /* counter.cc */; };
+		2235BA4A268363940016CCAA /* sleep.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2235BA30268363940016CCAA /* sleep.cc */; };
+		2235BA4B268363940016CCAA /* sleep.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2235BA30268363940016CCAA /* sleep.cc */; };
+		2235BA4C268363940016CCAA /* benchmark_name.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2235BA31268363940016CCAA /* benchmark_name.cc */; };
+		2235BA4D268363940016CCAA /* benchmark_name.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2235BA31268363940016CCAA /* benchmark_name.cc */; };
+		2235BA4E268363940016CCAA /* sysinfo.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2235BA32268363940016CCAA /* sysinfo.cc */; };
+		2235BA4F268363940016CCAA /* sysinfo.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2235BA32268363940016CCAA /* sysinfo.cc */; };
+		2235BA50268363940016CCAA /* reporter.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2235BA33268363940016CCAA /* reporter.cc */; };
+		2235BA51268363940016CCAA /* reporter.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2235BA33268363940016CCAA /* reporter.cc */; };
+		2235BA52268363940016CCAA /* console_reporter.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2235BA34268363940016CCAA /* console_reporter.cc */; };
+		2235BA53268363940016CCAA /* console_reporter.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2235BA34268363940016CCAA /* console_reporter.cc */; };
+		2235BA54268363940016CCAA /* commandlineflags.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2235BA35268363940016CCAA /* commandlineflags.cc */; };
+		2235BA55268363940016CCAA /* commandlineflags.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2235BA35268363940016CCAA /* commandlineflags.cc */; };
+		2235BA56268363940016CCAA /* perf_counters.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2235BA36268363940016CCAA /* perf_counters.cc */; };
+		2235BA57268363940016CCAA /* perf_counters.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2235BA36268363940016CCAA /* perf_counters.cc */; };
+		2235BA58268363940016CCAA /* complexity.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2235BA37268363940016CCAA /* complexity.cc */; };
+		2235BA59268363940016CCAA /* complexity.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2235BA37268363940016CCAA /* complexity.cc */; };
+		2235BA5A268363940016CCAA /* benchmark_main.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2235BA38268363940016CCAA /* benchmark_main.cc */; };
+		2235BA5B268363940016CCAA /* benchmark_main.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2235BA38268363940016CCAA /* benchmark_main.cc */; };
+		2235BA5C268363940016CCAA /* timers.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2235BA39268363940016CCAA /* timers.cc */; };
+		2235BA5D268363940016CCAA /* timers.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2235BA39268363940016CCAA /* timers.cc */; };
+		2235BA5E268363940016CCAA /* benchmark_register.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2235BA3A268363940016CCAA /* benchmark_register.cc */; };
+		2235BA5F268363940016CCAA /* benchmark_register.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2235BA3A268363940016CCAA /* benchmark_register.cc */; };
+		2235BA60268363940016CCAA /* benchmark.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2235BA3B268363940016CCAA /* benchmark.cc */; };
+		2235BA61268363940016CCAA /* benchmark.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2235BA3B268363940016CCAA /* benchmark.cc */; };
+		2235BA62268363940016CCAA /* benchmark_runner.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2235BA3C268363940016CCAA /* benchmark_runner.cc */; };
+		2235BA63268363940016CCAA /* benchmark_runner.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2235BA3C268363940016CCAA /* benchmark_runner.cc */; };
+		2235BA64268363940016CCAA /* json_reporter.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2235BA3D268363940016CCAA /* json_reporter.cc */; };
+		2235BA65268363950016CCAA /* json_reporter.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2235BA3D268363940016CCAA /* json_reporter.cc */; };
 		2252FD1323F45BA700496EFC /* string.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2205126323EDB7E5007CA0C4 /* string.cpp */; };
 		2252FD1623F45BBD00496EFC /* libios_string.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2252FD0A23F45B6A00496EFC /* libios_string.a */; };
 		22B585EA2403CFAA002B7A9E /* begin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B585E92403CFAA002B7A9E /* begin.cpp */; };
@@ -230,25 +232,6 @@
 		221BFEF824002EA50080277A /* addition.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = addition.cpp; sourceTree = "<group>"; };
 		221BFEFC24002F310080277A /* addition.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = addition.cpp; sourceTree = "<group>"; };
 		2221BDFB22D8AF4000A3098E /* libmacos_google_benchmark.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmacos_google_benchmark.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		2221BE0922D8AFC100A3098E /* commandlineflags.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = commandlineflags.cc; path = ../lib/benchmark/src/commandlineflags.cc; sourceTree = "<group>"; };
-		2221BE0A22D8AFC100A3098E /* benchmark_api_internal.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = benchmark_api_internal.cc; path = ../lib/benchmark/src/benchmark_api_internal.cc; sourceTree = "<group>"; };
-		2221BE0B22D8AFC100A3098E /* sysinfo.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sysinfo.cc; path = ../lib/benchmark/src/sysinfo.cc; sourceTree = "<group>"; };
-		2221BE0C22D8AFC100A3098E /* console_reporter.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = console_reporter.cc; path = ../lib/benchmark/src/console_reporter.cc; sourceTree = "<group>"; };
-		2221BE0D22D8AFC100A3098E /* benchmark_name.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = benchmark_name.cc; path = ../lib/benchmark/src/benchmark_name.cc; sourceTree = "<group>"; };
-		2221BE0E22D8AFC100A3098E /* counter.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = counter.cc; path = ../lib/benchmark/src/counter.cc; sourceTree = "<group>"; };
-		2221BE0F22D8AFC100A3098E /* benchmark_runner.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = benchmark_runner.cc; path = ../lib/benchmark/src/benchmark_runner.cc; sourceTree = "<group>"; };
-		2221BE1022D8AFC100A3098E /* timers.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = timers.cc; path = ../lib/benchmark/src/timers.cc; sourceTree = "<group>"; };
-		2221BE1122D8AFC100A3098E /* sleep.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sleep.cc; path = ../lib/benchmark/src/sleep.cc; sourceTree = "<group>"; };
-		2221BE1222D8AFC100A3098E /* string_util.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = string_util.cc; path = ../lib/benchmark/src/string_util.cc; sourceTree = "<group>"; };
-		2221BE1322D8AFC100A3098E /* csv_reporter.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = csv_reporter.cc; path = ../lib/benchmark/src/csv_reporter.cc; sourceTree = "<group>"; };
-		2221BE1422D8AFC100A3098E /* benchmark_main.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = benchmark_main.cc; path = ../lib/benchmark/src/benchmark_main.cc; sourceTree = "<group>"; };
-		2221BE1522D8AFC100A3098E /* complexity.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = complexity.cc; path = ../lib/benchmark/src/complexity.cc; sourceTree = "<group>"; };
-		2221BE1622D8AFC100A3098E /* json_reporter.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = json_reporter.cc; path = ../lib/benchmark/src/json_reporter.cc; sourceTree = "<group>"; };
-		2221BE1722D8AFC100A3098E /* reporter.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = reporter.cc; path = ../lib/benchmark/src/reporter.cc; sourceTree = "<group>"; };
-		2221BE1822D8AFC100A3098E /* statistics.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = statistics.cc; path = ../lib/benchmark/src/statistics.cc; sourceTree = "<group>"; };
-		2221BE1922D8AFC100A3098E /* colorprint.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = colorprint.cc; path = ../lib/benchmark/src/colorprint.cc; sourceTree = "<group>"; };
-		2221BE1A22D8AFC100A3098E /* benchmark_register.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = benchmark_register.cc; path = ../lib/benchmark/src/benchmark_register.cc; sourceTree = "<group>"; };
-		2221BE1B22D8AFC100A3098E /* benchmark.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = benchmark.cc; path = ../lib/benchmark/src/benchmark.cc; sourceTree = "<group>"; };
 		2221BE3322D8B45500A3098E /* libios_google_benchmark.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libios_google_benchmark.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2221BE5322D8B5CC00A3098E /* macos_benchmark */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = macos_benchmark; sourceTree = BUILT_PRODUCTS_DIR; };
 		2221BE5B22D8B60700A3098E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -260,6 +243,26 @@
 		222A654323EB16AD0027C3B2 /* String.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = String.cpp; sourceTree = "<group>"; };
 		222A654423EB16AD0027C3B2 /* String.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = String.hpp; sourceTree = "<group>"; };
 		222D923623FED3F20028A5BD /* find_first_of.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = find_first_of.cpp; sourceTree = "<group>"; };
+		2235BA2A268363940016CCAA /* csv_reporter.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = csv_reporter.cc; path = ../lib/benchmark/src/csv_reporter.cc; sourceTree = "<group>"; };
+		2235BA2B268363940016CCAA /* string_util.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = string_util.cc; path = ../lib/benchmark/src/string_util.cc; sourceTree = "<group>"; };
+		2235BA2C268363940016CCAA /* statistics.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = statistics.cc; path = ../lib/benchmark/src/statistics.cc; sourceTree = "<group>"; };
+		2235BA2D268363940016CCAA /* colorprint.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = colorprint.cc; path = ../lib/benchmark/src/colorprint.cc; sourceTree = "<group>"; };
+		2235BA2E268363940016CCAA /* benchmark_api_internal.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = benchmark_api_internal.cc; path = ../lib/benchmark/src/benchmark_api_internal.cc; sourceTree = "<group>"; };
+		2235BA2F268363940016CCAA /* counter.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = counter.cc; path = ../lib/benchmark/src/counter.cc; sourceTree = "<group>"; };
+		2235BA30268363940016CCAA /* sleep.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sleep.cc; path = ../lib/benchmark/src/sleep.cc; sourceTree = "<group>"; };
+		2235BA31268363940016CCAA /* benchmark_name.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = benchmark_name.cc; path = ../lib/benchmark/src/benchmark_name.cc; sourceTree = "<group>"; };
+		2235BA32268363940016CCAA /* sysinfo.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sysinfo.cc; path = ../lib/benchmark/src/sysinfo.cc; sourceTree = "<group>"; };
+		2235BA33268363940016CCAA /* reporter.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = reporter.cc; path = ../lib/benchmark/src/reporter.cc; sourceTree = "<group>"; };
+		2235BA34268363940016CCAA /* console_reporter.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = console_reporter.cc; path = ../lib/benchmark/src/console_reporter.cc; sourceTree = "<group>"; };
+		2235BA35268363940016CCAA /* commandlineflags.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = commandlineflags.cc; path = ../lib/benchmark/src/commandlineflags.cc; sourceTree = "<group>"; };
+		2235BA36268363940016CCAA /* perf_counters.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = perf_counters.cc; path = ../lib/benchmark/src/perf_counters.cc; sourceTree = "<group>"; };
+		2235BA37268363940016CCAA /* complexity.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = complexity.cc; path = ../lib/benchmark/src/complexity.cc; sourceTree = "<group>"; };
+		2235BA38268363940016CCAA /* benchmark_main.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = benchmark_main.cc; path = ../lib/benchmark/src/benchmark_main.cc; sourceTree = "<group>"; };
+		2235BA39268363940016CCAA /* timers.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = timers.cc; path = ../lib/benchmark/src/timers.cc; sourceTree = "<group>"; };
+		2235BA3A268363940016CCAA /* benchmark_register.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = benchmark_register.cc; path = ../lib/benchmark/src/benchmark_register.cc; sourceTree = "<group>"; };
+		2235BA3B268363940016CCAA /* benchmark.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = benchmark.cc; path = ../lib/benchmark/src/benchmark.cc; sourceTree = "<group>"; };
+		2235BA3C268363940016CCAA /* benchmark_runner.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = benchmark_runner.cc; path = ../lib/benchmark/src/benchmark_runner.cc; sourceTree = "<group>"; };
+		2235BA3D268363940016CCAA /* json_reporter.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = json_reporter.cc; path = ../lib/benchmark/src/json_reporter.cc; sourceTree = "<group>"; };
 		2252835123FBE30B00294F95 /* string_view.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = string_view.hpp; sourceTree = "<group>"; };
 		2252835223FBE3C200294F95 /* helper.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = helper.hpp; sourceTree = "<group>"; };
 		2252FD0A23F45B6A00496EFC /* libios_string.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libios_string.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -463,25 +466,26 @@
 		2221BE0822D8AF8200A3098E /* google_benchmark */ = {
 			isa = PBXGroup;
 			children = (
-				2221BE0A22D8AFC100A3098E /* benchmark_api_internal.cc */,
-				2221BE1422D8AFC100A3098E /* benchmark_main.cc */,
-				2221BE0D22D8AFC100A3098E /* benchmark_name.cc */,
-				2221BE1A22D8AFC100A3098E /* benchmark_register.cc */,
-				2221BE0F22D8AFC100A3098E /* benchmark_runner.cc */,
-				2221BE1B22D8AFC100A3098E /* benchmark.cc */,
-				2221BE1922D8AFC100A3098E /* colorprint.cc */,
-				2221BE0922D8AFC100A3098E /* commandlineflags.cc */,
-				2221BE1522D8AFC100A3098E /* complexity.cc */,
-				2221BE0C22D8AFC100A3098E /* console_reporter.cc */,
-				2221BE0E22D8AFC100A3098E /* counter.cc */,
-				2221BE1322D8AFC100A3098E /* csv_reporter.cc */,
-				2221BE1622D8AFC100A3098E /* json_reporter.cc */,
-				2221BE1722D8AFC100A3098E /* reporter.cc */,
-				2221BE1122D8AFC100A3098E /* sleep.cc */,
-				2221BE1822D8AFC100A3098E /* statistics.cc */,
-				2221BE1222D8AFC100A3098E /* string_util.cc */,
-				2221BE0B22D8AFC100A3098E /* sysinfo.cc */,
-				2221BE1022D8AFC100A3098E /* timers.cc */,
+				2235BA2E268363940016CCAA /* benchmark_api_internal.cc */,
+				2235BA38268363940016CCAA /* benchmark_main.cc */,
+				2235BA31268363940016CCAA /* benchmark_name.cc */,
+				2235BA3A268363940016CCAA /* benchmark_register.cc */,
+				2235BA3C268363940016CCAA /* benchmark_runner.cc */,
+				2235BA3B268363940016CCAA /* benchmark.cc */,
+				2235BA2D268363940016CCAA /* colorprint.cc */,
+				2235BA35268363940016CCAA /* commandlineflags.cc */,
+				2235BA37268363940016CCAA /* complexity.cc */,
+				2235BA34268363940016CCAA /* console_reporter.cc */,
+				2235BA2F268363940016CCAA /* counter.cc */,
+				2235BA2A268363940016CCAA /* csv_reporter.cc */,
+				2235BA3D268363940016CCAA /* json_reporter.cc */,
+				2235BA36268363940016CCAA /* perf_counters.cc */,
+				2235BA33268363940016CCAA /* reporter.cc */,
+				2235BA30268363940016CCAA /* sleep.cc */,
+				2235BA2C268363940016CCAA /* statistics.cc */,
+				2235BA2B268363940016CCAA /* string_util.cc */,
+				2235BA32268363940016CCAA /* sysinfo.cc */,
+				2235BA39268363940016CCAA /* timers.cc */,
 			);
 			name = google_benchmark;
 			sourceTree = "<group>";
@@ -771,7 +775,7 @@
 		22A0675D22D8AD8500420C6D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1300;
 				TargetAttributes = {
 					2205126823EDB8A9007CA0C4 = {
 						CreatedOnToolsVersion = 11.4;
@@ -854,25 +858,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2221BE2722D8AFC100A3098E /* benchmark_main.cc in Sources */,
-				2221BE2622D8AFC100A3098E /* csv_reporter.cc in Sources */,
-				2221BE1F22D8AFC100A3098E /* console_reporter.cc in Sources */,
-				2221BE2E22D8AFC100A3098E /* benchmark.cc in Sources */,
-				2221BE2422D8AFC100A3098E /* sleep.cc in Sources */,
-				2221BE2522D8AFC100A3098E /* string_util.cc in Sources */,
-				2221BE2C22D8AFC100A3098E /* colorprint.cc in Sources */,
-				2221BE2822D8AFC100A3098E /* complexity.cc in Sources */,
-				2221BE2322D8AFC100A3098E /* timers.cc in Sources */,
-				2221BE2A22D8AFC100A3098E /* reporter.cc in Sources */,
-				2221BE1C22D8AFC100A3098E /* commandlineflags.cc in Sources */,
-				2221BE2922D8AFC100A3098E /* json_reporter.cc in Sources */,
-				2221BE2222D8AFC100A3098E /* benchmark_runner.cc in Sources */,
-				2221BE1E22D8AFC100A3098E /* sysinfo.cc in Sources */,
-				2221BE2B22D8AFC100A3098E /* statistics.cc in Sources */,
-				2221BE1D22D8AFC100A3098E /* benchmark_api_internal.cc in Sources */,
-				2221BE2122D8AFC100A3098E /* counter.cc in Sources */,
-				2221BE2D22D8AFC100A3098E /* benchmark_register.cc in Sources */,
-				2221BE2022D8AFC100A3098E /* benchmark_name.cc in Sources */,
+				2235BA4C268363940016CCAA /* benchmark_name.cc in Sources */,
+				2235BA62268363940016CCAA /* benchmark_runner.cc in Sources */,
+				2235BA5C268363940016CCAA /* timers.cc in Sources */,
+				2235BA46268363940016CCAA /* benchmark_api_internal.cc in Sources */,
+				2235BA50268363940016CCAA /* reporter.cc in Sources */,
+				2235BA5A268363940016CCAA /* benchmark_main.cc in Sources */,
+				2235BA54268363940016CCAA /* commandlineflags.cc in Sources */,
+				2235BA42268363940016CCAA /* statistics.cc in Sources */,
+				2235BA44268363940016CCAA /* colorprint.cc in Sources */,
+				2235BA4A268363940016CCAA /* sleep.cc in Sources */,
+				2235BA40268363940016CCAA /* string_util.cc in Sources */,
+				2235BA56268363940016CCAA /* perf_counters.cc in Sources */,
+				2235BA48268363940016CCAA /* counter.cc in Sources */,
+				2235BA4E268363940016CCAA /* sysinfo.cc in Sources */,
+				2235BA52268363940016CCAA /* console_reporter.cc in Sources */,
+				2235BA5E268363940016CCAA /* benchmark_register.cc in Sources */,
+				2235BA64268363940016CCAA /* json_reporter.cc in Sources */,
+				2235BA60268363940016CCAA /* benchmark.cc in Sources */,
+				2235BA3E268363940016CCAA /* csv_reporter.cc in Sources */,
+				2235BA58268363940016CCAA /* complexity.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -880,25 +885,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2221BE4922D8B46A00A3098E /* reporter.cc in Sources */,
-				2221BE3F22D8B46A00A3098E /* benchmark_register.cc in Sources */,
-				2221BE4822D8B46A00A3098E /* json_reporter.cc in Sources */,
-				2221BE4E22D8B46A00A3098E /* timers.cc in Sources */,
-				2221BE3E22D8B46A00A3098E /* benchmark_name.cc in Sources */,
-				2221BE4522D8B46A00A3098E /* console_reporter.cc in Sources */,
-				2221BE4022D8B46A00A3098E /* benchmark_runner.cc in Sources */,
-				2221BE4322D8B46A00A3098E /* commandlineflags.cc in Sources */,
-				2221BE4D22D8B46A00A3098E /* sysinfo.cc in Sources */,
-				2221BE4A22D8B46A00A3098E /* sleep.cc in Sources */,
-				2221BE4122D8B46A00A3098E /* benchmark.cc in Sources */,
-				2221BE3D22D8B46A00A3098E /* benchmark_main.cc in Sources */,
-				2221BE4C22D8B46A00A3098E /* string_util.cc in Sources */,
-				2221BE4622D8B46A00A3098E /* counter.cc in Sources */,
-				2221BE4422D8B46A00A3098E /* complexity.cc in Sources */,
-				2221BE4B22D8B46A00A3098E /* statistics.cc in Sources */,
-				2221BE4722D8B46A00A3098E /* csv_reporter.cc in Sources */,
-				2221BE4222D8B46A00A3098E /* colorprint.cc in Sources */,
-				2221BE3C22D8B46A00A3098E /* benchmark_api_internal.cc in Sources */,
+				2235BA4D268363940016CCAA /* benchmark_name.cc in Sources */,
+				2235BA63268363940016CCAA /* benchmark_runner.cc in Sources */,
+				2235BA5D268363940016CCAA /* timers.cc in Sources */,
+				2235BA47268363940016CCAA /* benchmark_api_internal.cc in Sources */,
+				2235BA51268363940016CCAA /* reporter.cc in Sources */,
+				2235BA5B268363940016CCAA /* benchmark_main.cc in Sources */,
+				2235BA55268363940016CCAA /* commandlineflags.cc in Sources */,
+				2235BA43268363940016CCAA /* statistics.cc in Sources */,
+				2235BA45268363940016CCAA /* colorprint.cc in Sources */,
+				2235BA4B268363940016CCAA /* sleep.cc in Sources */,
+				2235BA41268363940016CCAA /* string_util.cc in Sources */,
+				2235BA57268363940016CCAA /* perf_counters.cc in Sources */,
+				2235BA49268363940016CCAA /* counter.cc in Sources */,
+				2235BA4F268363940016CCAA /* sysinfo.cc in Sources */,
+				2235BA53268363940016CCAA /* console_reporter.cc in Sources */,
+				2235BA5F268363940016CCAA /* benchmark_register.cc in Sources */,
+				2235BA65268363950016CCAA /* json_reporter.cc in Sources */,
+				2235BA61268363940016CCAA /* benchmark.cc in Sources */,
+				2235BA3F268363940016CCAA /* csv_reporter.cc in Sources */,
+				2235BA59268363940016CCAA /* complexity.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1423,7 +1429,7 @@
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_PARAMETER = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = (
@@ -1510,7 +1516,7 @@
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_PARAMETER = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				SUPPORTS_UIKITFORMAC = NO;
